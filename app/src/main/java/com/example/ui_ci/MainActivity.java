@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 i+=1;
 
-                if(i%2!=0)textView.setText("Red!");
+                if(i%2!=0)textView.setText("Red!") ;
                 else textView.setText("Green!");
             }
         });

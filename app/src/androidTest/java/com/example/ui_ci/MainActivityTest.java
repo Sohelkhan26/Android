@@ -18,8 +18,7 @@ public class MainActivityTest {
     @Test
     public void testButtonClick_Red() {
         // Click the button
-        Espresso.onView(ViewMatchers.withId(R.id.button))
-                .perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.button)).perform(ViewActions.click());
 
         // Check if the text view displays "Red!"
         Espresso.onView(ViewMatchers.withId(R.id.textView))
